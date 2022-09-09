@@ -17,6 +17,8 @@ b = 0
 
 fibonacci_list = []
 
+# iterate to create the fibonacci sequence list!
+
 while b < 4000000:
     if b == 0:
         fibonacci_list.append(b)
@@ -32,6 +34,8 @@ while b < 4000000:
 
 answer = 0
 
+# Create a for loop with a variable to sum the even numbers in the sequence
+
 for number in fibonacci_list:
     if number % 2 == 0:
         answer += number
@@ -40,9 +44,10 @@ for number in fibonacci_list:
 
 print("\nThe solution of problem is {}!\n".format(answer))
 
+# The solution of problem is 4613732!
+
 end = time.time()
 
 print("The time of execution is {}.\n".format(end-start))
 
-
-
+# The time of execution is 0.0019960403442382812.
