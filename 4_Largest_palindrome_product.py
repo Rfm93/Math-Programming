@@ -61,6 +61,7 @@ print("\nThe largest 3-digit palindrome is {}!.\n".format(find_max_palindrome))
 
 end = time.time() - start
 
+print(f"The execution of program ended in {end}s.\n")
+
 # The execution of program ended in 0.34871792793273926.
 
-print(f"The execution of program ended in {end}s.\n")
